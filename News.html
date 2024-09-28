@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxbeau.com/News</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--Slider-->
+    <link rel="stylesheet" href="News.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors:{
+                        'Midnightblue':'#2C3E50',
+                        'DarkBlue':' #2C3E50',
+                   },
+                    fontFamily: {
+                    kurale: ['Kurale', 'serif'],
+                    lora: ['Lora', 'serif'],
+                    raleway: ['Raleway', 'sans-serif'],
+                    Didot:['Didot','serif'],
+                    cormorant: ['Cormorant Garamond', 'serif'],
+                    LibreBodoni:['Libre Bonodi','serif'],
+                },
+            },
+          },
+        };
+    </script>  
+</head>
+<body>
+    <!--Navbar-->
+    <header class="bg-DarkBlue border-b-2 border-black  sticky top-0 z-50">
+        <div class="text-white md:container mx-auto py-4 flex justify-center">
+            <a href="#" class="font-kurale text-white text-5xl font-bold text-center"> LuxBeau</a>
+        </div>
+        <div id="Menu" class="font-raleway text-xl font-semibold flex text-white justify-center pb-2 gap-5"> 
+            <a href="index.html" class="py-1 hover:underline hover:font-bold"> Home</a>
+            <a href="#" class="py-1 hover:underline hover:font-bold"> News</a>
+            <a href="Shop-Section/Shop-Section/index.html" class="py-1 hover:underline hover:font-bold"> Shop</a>
+            <a href="Post-Section/teknovistablog.html" class="py-1 hover:underline hover:font-bold"> Post</a>
+        </div>
+    </header>
+
+
+    <!--Latest Updates-->
+    <div class="grid grid-rows-2 grid-flow-col gap-4 justify-center mt-20 ml-36 mr-36 font-lora">
+        <!--Kiri-->
+        <div class="relative justify-center h-72 w-80">
+            <div class="col-span-1">
+                <a href="Maintenance.html">
+                    <img src="img/News/Latest Update/ModelIndonesia2.jpg" alt="" class="mx-auto mt-3">
+                    <p class="text-base font-medium hover:underline">Fashion Gallery Indonesia Mendapat Perhatian Internasional Berkat Pelestarian Budaya.</p>
+                </a>
+            </div>
+
+            <div class="col-span-1">
+                <a href="Maintenance.html">
+                    <img src="img/News/Latest Update/DamagedSkin.jpg" alt="" class="mx-auto mt-3">
+                    <p class="text-base font-medium hover:underline">Lembaga Kesehatan bertindak tegas terhadap bahan kosmetik yang tidak sesuai standar.</p>
+                </a>
+            </div>
+        </div>
+
+        <!--Kanan-->
+        <div class="row-span-2 col-span-2 w-full">
+            <a href="LatestUpdate.html">
+                <img src="img/News/Latest Update/Desainer Ternama.jpg" alt="" class="h-[616px] w-full mx-auto mt-3">
+                <p class="text-base font-medium hover:underline">Da Calli menjadi kandidat pemenang terkuat dengan persentase lebih dari 57% di ajang Invitiation Gallery Show Internasional.</p>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Hot Topics-->
+    <div class="justify-items-center border-t-2 border-b-2 mt-28 ml-64 mr-64">
+        <H1 class="text-center font-cormorant font-bold text-3xl">- Hot Topics -</H1>
+    </div>
+
+    <!--Hot Topics Menu-->
+    <div class="flex justify-between mt-24">
+        <!--Kiri-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px] ml-64">
+            <img src="img/News/Hot Topics/Hot Topics1.1.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 pr-4 font-bold mt-3 hover:underline">Kolaborasi antara L.K juga Lohan di Designer Collection Gallery</h2><!--Laura Kendall-->
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Model muda yakni L.K, lagi dan lagi tampil memukau di pergelaran Fashion Designer Collection Gallery. Namun kali ini ia bersama dengan Lohan sebagai Designer terkemuka dari Franch.</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+        <!--Tengah-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px]">
+            <img src="img/News/TopHits/Beauty.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 pr-4 font-bold mt-3 hover:underline">Mardah to UniClean</h2>
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Nama Sophia Lara sebagai Beauty Influencer kembali mencuat dikarenakan pindah kontrak dari Mardah ke <b>UniClean</b>. Sophia merasa sudah tak dihiraukan lagi. "Disana sudah tidak ada yang mendengarkan" ungkap Sophia.</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 mt-8 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+        <!--Kanan-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px] mr-64">
+            <img src="img/News/Hot Topics/BeautyModel3.4.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 font-bold mt-3 hover:underline">Penampilan luar biasa Jenipher Vanya</h2>
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Model ternama Jenipher Vanya atau JV, yang selalu tampil Bold kini tampak tampil Soft di puncak acara Local Fashion gallery di US. JV tetap memancarkan karismanya sebagai Model Kelas Atas meskipun tampil berbeda</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 mt-8 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Top Hits-->
+    <div class="justify-items-center border-t-2 border-b-2 mt-20 ml-64 mr-64">
+        <H1 class="text-center font-cormorant font-bold text-3xl">- Top Hits -</H1>
+    </div>
+    <!--Top Hits Menu-->
+    <div class="flex justify-between mt-24">
+        <!--Kiri-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px] ml-64">
+            <img src="img/News/TopHits/TopHits1.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 font-bold mt-3 hover:underline">Bruyce Iskandar menolak pensiun</h2>
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Setelah berkarir menjadi aktor selama 27th kini <br>aktor terkenal Bruyce Iskandar atau lebih dikenal Thommas Hammer menerima tawaran untuk menjadi Model di <b>SUGGI</b> diusianya yang tidak <br>lagi muda.</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 mt-8 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+        <!--Tengah-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px]">
+            <img src="img/News/TopHits/Batik.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 font-bold mt-3 hover:underline">Batik: from tradition to global fashion</h2>
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Akhirnya Batik menjadi Trend Fashion dikancah Internasional. Hal tersebut terjadi setelah ditampilkan pada ajang <b>Paris Fashion Week</b>, dan mendapatkan reaksi positif dari berbagai kalangan juga dari para Ahli Fashion</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 mt-8 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+        <!--Kanan-->
+        <div class="bg-gray-200 hover:bg-slate-200 hover:border-b-2 border-gray-400 rounded-t-lg rounded-b-xl w-[400px] h-[512px] mr-64">
+            <img src="img/News/Hot Topics/Lipstick2.jpg" alt="" class=" w-[400px] h-56 rounded-t-lg">
+            <h2 class="font-LibreBodoni text-left text-xl pl-4 font-bold mt-3 hover:underline">Warna baru di Musim Semi</h2><!--NARS:https://www.narscosmetics.com/-->
+            <p class="font-LibreBodoni pl-4 pr-2 pt-2 text-lg hover:underline">Perusahaan kosmetik ternama <b>ANYAR</b>, baru saja meluncurkan koleksi lipstik terbaru dengan menunjukkan keindahan musim semi, agar dapat mengekspresikan diri melalui warna dan kecantikan.</p>
+            <a href="Maintenance.html">
+                <button class="bg-black text-xl font-LibreBodoni font-semibold text-white hover:bg-white hover:text-black hover:border-2  hover:after:content-['Sekarang'] rounded-lg border-black ml-9 mt-8 h-14 w-80">Baca<span class="pl-2"></button>
+            </a>
+        </div>
+    </div>
+
+
+    <!--Slider TopHits-->
+    <div class="justify-items-center border-t-2 border-b-2 mt-28 ml-64 mr-64">
+        <H1 class="text-center font-cormorant font-bold text-3xl">- Spotlight on Fashion & Beauty-</H1>
+    </div>
+
+    <div class="container swipper-TopHits rounded-lg ml-[180px] mt-16">
+        <div class="card-wrapper-category">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="Maintenance.html" class="card-link">
+                        <img src="img/Slider/FashionShow1.jpg" alt="" class="card-image">
+                        <h2 class="card-title hover:underline font-LibreBodoni font-semibold text-sm">Kesuksesan Fashion Showcase on the Road yang pertama kali diselenggarakan di Indonesia.</h2>
+                        <button class="card-button font-LibreBodoni bg-black text-white rounded-md border-2 hover:bg-white hover:border-black hover:text-black w-32 text-center font-bold text-lg hover:after:content-['Sekarang']">Baca</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="Maintenance.html" class="card-link">
+                        <img src="img/Slider/Fest1.jpg" alt="" class="card-image">
+                        <h2 class="card-title font-LibreBodoni hover:underline font-semibold text-sm">Datangnya para selebriti papan atas membuat Paras Beauty Fest semakin meriah.</h2>
+                        <button class="card-button font-LibreBodoni bg-black text-white rounded-md border-2 hover:bg-white hover:border-black hover:text-black w-32 text-center font-bold text-lg hover:after:content-['Sekarang']">Baca</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="Maintenance.html" class="card-link">
+                        <img src="img/Slider/Arabic Fashion.jpg" alt="" class="card-image">
+                        <h2 class="card-title font-LibreBodoni hover:underline font-semibold text-sm">Arabian Fashion Nation tetap berjalan sukses meski mendapatkan banyak kontroversi dari media.</h2>
+                        <button class="card-button font-LibreBodoni bg-black text-white rounded-md border-2 hover:bg-white hover:border-black hover:text-black w-32 text-center font-bold text-lg hover:after:content-['Sekarang']">Baca</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="Maintenance.html" class="card-link">
+                        <img src="img/Slider/Fasion Street.jpg" alt="" class="card-image">
+                        <h2 class="card-title font-LibreBodoni hover:underline font-semibold text-sm">Trend Street Fashion dimalam hari di Jakarta mulai meluas hingga seluruh Asia Tenggara.</h2>
+                        <button class="card-button font-LibreBodoni bg-black text-white rounded-md border-2 hover:bg-white hover:border-black hover:text-black w-32 text-center font-bold text-lg hover:after:content-['Sekarang']">Baca</button>
+                    </a>
+                </li>
+                <li class="card-item swiper-slide">
+                    <a href="Maintenance.html" class="card-link">
+                        <img src="img/Slider/DarkSkinModel.jpg" alt="" class="card-image">
+                        <h2 class="card-title font-LibreBodoni hover:underline font-semibold text-sm">Lara Claire menjadi orang berkulit hitam kedua yang memenangkan ajang Fashion & Beauty Internasional</h2>
+                        <button class="card-button font-LibreBodoni bg-black text-white rounded-md border-2 hover:bg-white hover:border-black hover:text-black w-32 text-center font-bold text-lg hover:after:content-['Sekarang']">Baca</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Other News-->
+    <div class="justify-items-center border-t-2 border-b-2 mt-28 ml-52 mr-52">
+        <H1 class="text-center font-cormorant font-bold text-3xl">- Other News -</H1>
+    </div>
+    <div class="grid grid-cols-2 font-LibreBodoni border-gray-300 w-3/4 ml-52 mr-52 mt-14">
+        <div class="space-y-2"><!--Kiri-->
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Banyak perusahaan kosmetik dunia yang beralih ke Cruelty-free</p>
+                    <img src="img/Other News/Cruelty-free.jpg" alt="" class="h-28 w-38 mt-3">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Teknologi AI semakin digunakan dalam perawatan kulit dan kecantikan</p>
+                    <img src="img/Other News/AI in Beauty.jpg" alt="" class="h-28 w-28 mt-4 mr-5">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Trend Oversize sudah tidak lagi digunakan di Ajang Fashion Lokal</p>
+                    <img src="img/Other News/Oversize.jpg" alt="" class="h-28 w-28 mt-4 mr-5">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Christina bak Elf dari negeri dongen saat tampil diajang Fashionshow Case Italia</p>
+                    <img src="img/Other News/Albino.jpg" alt="" class="h-28 w-38 mt-4 mr-5">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Gallery dari Beauty Model dari Afrika ini tuai pujian dari warganet.</p>
+                    <img src="img/Other News/DarkSkin.jpg" alt="" class="h-28 w-38 mt-4 mr-5">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Designer lokal dari Inggris siap untuk memukau dunia dengan karyanya <br>di ajang Fashion Designer Collection Gallery.</p>
+                    <img src="img/Other News/Designer.jpg" alt="" class="h-28 w-38 mt-4 mr-5">
+                </div>
+            </a>
+            <a href="Maintenance.html">
+                <div class="flex justify-between items-center">
+                    <p class="text-lg font-bold pt-10 hover:underline">Ramai! Perusahaan Kosmetik sedang gencar mencari Beauty Model dari Indonesia</p><!--L'Oréal: https://www.loreal.com/id-id/indonesia/-->
+                    <img src="img/Other News/IndonesiaModel.jpg" alt="" class="h-28 w-38 mt-4 mr-5">
+                </div>
+            </a>
+        </div>
+        <div class="space-y-4 flex justify-center"><!--Kanan-->
+            <div class="text-left">
+                <a href="Maintenance.html">
+                    <img src="img/Other News/GeometricFash.jpg" alt="" class="h-[264px] w-full mx-auto mt-3">
+                    <p class="text-base font-bold hover:underline">Desain Berpola Geometris Ramaikan Runway.</p>
+                </a>
+                <a href="Maintenance.html">
+                    <img src="img/Other News/vintagemodel.jpg" alt="" class="h-[264px] w-full mx-auto mt-5">
+                    <p class="text-base font-bold hover:underline">Trend Vintage tahun 90an kembali muncul Di Inggris.</p>
+                </a>
+                <a href="Maintenance.html">
+                    <img src="img/Other News/thrifting.jpg" alt="" class="h-[264px] w-full mx-auto mt-5">
+                    <p class="ttext-base font-bold hover:underline">Kontoversi Fashion Thrifting di Indonesia.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        
+    <!--Footer-->
+    <div class="flex justify-between items-center px-32 bg-DarkBlue gap-5 mt-32 w-full h-96">
+        <div class="text-white text-7xl font-kurale font-bold">LuxBeau</div>
+        <div class="text-white text-2xl font-lora font-semibold">Created by Vacuity</div>
+        <div class="flex gap-4">
+            <a href="https://wa.me/" class="group"><img src="img/Icon/IconFooter/Phone Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/Phone Icon.png" alt="Phone Icon Hover" class="w-16 hidden group-hover:block"></a>
+
+            <a href="https://facebook.com/" class="group"><img src="img/Icon/IconFooter/FaceBook Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/FaceBook Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+
+            <a href="https://youtube.com/@Reverse1999" class="group"><img src="img/Icon/IconFooter/YouTube Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/YouTube Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+
+            <a href="sms:+" class="group"><img src="img/Icon/IconFooter/Message Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/Message Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+
+            <a href="https://maps.app.goo.gl/zrkEbJ9QRyPJ4qr38" class="group"><img src="img/Icon/IconFooter/Maps Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/Maps Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+
+            <a href="mailto:@gmail.com" class="group"><img src="img/Icon/IconFooter/Mail Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/Mail Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+
+            <a href="https://twitter.com/" class="group"><img src="img/Icon/IconFooter/Tweet Icon.svg" alt="" class="w-16 group-hover:hidden">
+                <img src="img/Icon/IconFooterColor/Tweet Icon.png" alt="" class="w-16 hidden group-hover:block"></a>
+        </div>
+    </div>
+
+
+    <!--Script Slider-->  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
+<!-- Source Code -->
+    <!-- Slider 
+        Tutorial: https://youtu.be/VUtJ7FWCfZA?si=eRpI387DjDkA85T3  
+        Link JavaScript: https://swiperjs.com/get-started
+    -->

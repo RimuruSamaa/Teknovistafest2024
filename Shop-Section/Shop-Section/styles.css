@@ -1,0 +1,140 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7E7CE; /* Champagne background */
+    color: #2C3E50; /* Midnight Blue for text */
+}
+
+h1.shop-title {
+    text-align: center;
+    background-color: #36454F; /* Charcoal Gray */
+    color: #FFFFF0; /* Ivory */
+    padding: 30px;
+    margin: 0;
+    font-size: 36px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 28px;
+    color: #2C3E50; /* Midnight Blue */
+    border-bottom: 2px solid #B76E79; /* Rose Gold underline */
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+.product-item {
+    background-color: #FFFFF0; /* Ivory background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(20% - 40px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    padding-bottom: 0%;  /* 1:1 aspect ratio */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /*background-color: #f0f0f0;  Warna background jika gambar belum ada */
+}
+
+.product-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2C3E50; /* Midnight Blue */
+}
+
+.price {
+    font-size: 20px;
+    color: #B76E79; /* Rose Gold */
+    margin-bottom: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px; /* Added margin to separate from button */
+}
+
+.add-to-cart {
+    background-color: #B76E79; /* Rose Gold */
+    color: #FFFFF0; /* Ivory */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px; /* Added margin to ensure separation */
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.add-to-cart:hover {
+    background-color: #9e5c6b; /* Darker Rose Gold */
+}
+
+.product-item .add-to-cart {
+    position: relative;
+    bottom: 0;
+}
+
+
+.footer {
+    background-color: #36454F; /* Charcoal Gray */
+    color: #FFFFF0; /* Ivory */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Responsif untuk layar lebih kecil */
+@media (max-width: 1024px) {
+    .product-item {
+        width: calc(25% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-item {
+        width: calc(33.33% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 320px) {
+    .product-item {
+        width: calc(100% - 40px);
+    }
+}
